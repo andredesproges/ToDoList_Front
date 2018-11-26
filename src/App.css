@@ -1,0 +1,55 @@
+body {
+    background-color: #F1F3F4;
+}
+
+h1 {
+    font-weight:300;
+    color:gray;
+    font-size:50px;
+}
+
+ul {
+    color:gray;
+    padding-left:0px;
+}
+
+.ul_Liste {
+    display:flex;
+}
+
+.Container_Principal {
+    display:flex;
+    flex-direction:column;
+    width:75%;
+    margin: 0 auto;
+    padding:20px;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.New_Item {
+    width:95%;
+    border-radius: 4px;
+    height: 35px;
+    border: 1px solid lightgray;
+    padding-left:15px;
+    font-size:14px;
+}
+
+.Ajouter {
+    color:white;
+    font-size:12px;
+    height:40px;
+    width:200px;
+    margin-top:15px;
+    font-weight:bold;
+    background-color: #AD22CB;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+span {
+    cursor:pointer;
+    line-height:35px;
+    margin-left:10px;
+}
